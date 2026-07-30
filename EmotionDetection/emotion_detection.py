@@ -18,4 +18,9 @@ def emotion_detector(text_to_analyse):
               'joy': joy, 'sadness': sadness}
     dominant_emotion = max(scores, key=scores.get)
 
-    return {'anger': anger, 'disgust': disgust, 'fear': fear, 'joy': joy, 'sadness': sadness, 'dominant_emotion': dominant_emotion}
+    return {'anger': anger,
+            'disgust': disgust,
+            'fear': fear,
+            'joy': joy,
+            'sadness': sadness,
+            'dominant_emotion': dominant_emotion}
